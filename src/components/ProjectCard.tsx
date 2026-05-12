@@ -1,6 +1,7 @@
 'use client';
 
-import { Folder, Github, ExternalLink } from 'lucide-react';
+import { Folder, ExternalLink } from 'lucide-react';
+import { GithubIcon } from '@/components/icons';
 import type { Project } from '@/lib/types';
 
 interface ProjectCardProps {
@@ -34,7 +35,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             aria-label={`${project.name} GitHub`}
             className="text-slate-500 transition-colors hover:text-brand"
           >
-            <Github size={18} strokeWidth={1.5} />
+            <GithubIcon size={18} />
           </a>
           {project.liveLink && (
             <a

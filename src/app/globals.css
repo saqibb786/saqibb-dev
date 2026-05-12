@@ -100,3 +100,13 @@ body {
   scrollbar-width: thin;
   scrollbar-color: rgba(100, 255, 218, 0.3) #0a0a0f;
 }
+
+/* ── Shimmer Animation ── */
+@keyframes shimmer {
+  0% {
+    background-position: 200% 200%;
+  }
+  100% {
+    background-position: -200% -200%;
+  }
+}

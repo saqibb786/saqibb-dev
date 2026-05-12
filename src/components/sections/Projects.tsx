@@ -1,7 +1,8 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Github, ExternalLink } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
+import { GithubIcon } from '@/components/icons';
 import { projects, personalInfo } from '@/lib/data';
 import ProjectCard from '@/components/ProjectCard';
 
@@ -182,7 +183,7 @@ export default function Projects() {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-sm text-slate-400 transition-colors hover:text-brand"
                 >
-                  <Github size={18} strokeWidth={1.5} />
+                  <GithubIcon size={18} />
                   Source
                 </a>
                 {highlightedProject.liveLink && (

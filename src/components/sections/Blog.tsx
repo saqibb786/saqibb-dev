@@ -119,18 +119,6 @@ export default function Blog() {
           to get notified first.
         </motion.p>
       </div>
-
-      {/* Shimmer keyframe (injected inline) */}
-      <style jsx>{`
-        @keyframes shimmer {
-          0% {
-            background-position: 200% 200%;
-          }
-          100% {
-            background-position: -200% -200%;
-          }
-        }
-      `}</style>
     </section>
   );
 }

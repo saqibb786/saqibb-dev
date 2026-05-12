@@ -1,21 +1,21 @@
 'use client';
 
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { GithubIcon, LinkedinIcon, XIcon } from '@/components/icons';
 import { personalInfo } from '@/lib/data';
 
 const socialLinks = [
   {
-    icon: Github,
+    icon: GithubIcon,
     href: personalInfo.github,
     label: 'GitHub',
   },
   {
-    icon: Linkedin,
+    icon: LinkedinIcon,
     href: personalInfo.linkedin,
     label: 'LinkedIn',
   },
   {
-    icon: Twitter,
+    icon: XIcon,
     href: personalInfo.x,
     label: 'X / Twitter',
   },
