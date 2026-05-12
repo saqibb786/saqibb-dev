@@ -258,7 +258,7 @@ export const education: Education[] = [
     degree: 'Bachelors in Computer Science',
     institution: 'University of Central Punjab',
     year: 'Expected 2026',
-    details: 'CGPA: 3.23 | 8th Semester',
+    details: 'CGPA: 3.28 | 8th Semester',
   },
   {
     degree: 'Intermediate in Computer Science',

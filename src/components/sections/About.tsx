@@ -9,7 +9,7 @@ const stats = [
   { value: '15+', label: 'Projects Built' },
   { value: '98.5th', label: 'Percentile — HEC National Test' },
   { value: '10+', label: 'Certifications' },
-  { value: '3.23', label: 'CGPA' },
+  { value: '3.28', label: 'CGPA' },
 ];
 
 /* ─── Animation Variants ─── */
