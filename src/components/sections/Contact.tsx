@@ -110,6 +110,7 @@ export default function Contact() {
         {
           from_name: formData.name,
           from_email: formData.email,
+          reply_to: formData.email,
           subject: formData.subject,
           message: formData.message,
         },
